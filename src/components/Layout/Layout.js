@@ -2,9 +2,9 @@ import React from 'react'
 const layout = (props) => {
     return (
     <React.Fragment>
-        <p>{props.children}</p>
+        {props.children}
     </React.Fragment>
-    )
+    );
 }
 
 export default layout;
