@@ -24,6 +24,7 @@ const order = (props) => {
             border: '1px solid #ccc',
             padding: '5px'
         }}
+        key={ingredient.name}
         >{ingredient.name} ({ingredient.amount})</span>
         )
     })

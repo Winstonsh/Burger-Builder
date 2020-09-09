@@ -14,7 +14,6 @@ class Orders extends Component {
         axios.get('/orders.json')
             .then(res => {
                 const fetchedOrders = []
-                console.log(res.data)
                 for(let key in res.data) {
                     fetchedOrders.push({
                         ...res.data[key], //get the data inside a certain firebase ID
